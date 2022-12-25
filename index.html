@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google for India(clone by abhinavke.dev )</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <span class="by">
+            Made with HTML & CSS by <a href="https://abhinavke.dev/">abhinavke.dev</a>
+        </span>
+        <div class="header">
+            <div class="nav01">
+                <div class="logo01">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2500" height="816" viewBox="0 0 596 194.5"><path fill="#3780ff" d="M73.4 0h5.3c18.4.4 36.5 7.8 49.5 20.9-4.8 4.9-9.7 9.6-14.4 14.5-7.3-6.6-16.1-11.7-25.7-13.5-14.2-3-29.5-.3-41.4 7.8C33.7 38.2 24.9 52.6 23 68c-2.1 15.2 2.2 31.2 12.1 43 9.5 11.5 24 18.7 39 19.2 14 .8 28.6-3.5 38.8-13.3 8-6.9 11.7-17.4 12.9-27.6-16.6 0-33.2.1-49.8 0V68.7h69.9c3.6 22.1-1.6 47-18.4 62.8-11.2 11.2-26.7 17.8-42.5 19.1-15.3 1.5-31.1-1.4-44.7-8.8C24 133.1 11 118.4 4.6 101.1c-6-15.9-6.1-33.9-.5-49.9C9.2 36.6 19 23.7 31.6 14.7 43.7 5.8 58.4.9 73.4 0z"/><path fill="#38b137" d="M474.4 5.2h21.4V148c-7.1 0-14.3.1-21.4-.1.1-47.5 0-95.1 0-142.7z"/><path fill="#fa3913" d="M193.5 54.7c13.2-2.5 27.5.3 38.4 8.2 9.9 7 16.8 18 18.9 30 2.7 13.9-.7 29.1-9.7 40.1-9.7 12.3-25.6 18.9-41.1 17.9-14.2-.8-28-7.9-36.4-19.5-9.5-12.8-11.8-30.4-6.6-45.4 5.2-16.1 19.9-28.4 36.5-31.3m3 19c-5.4 1.4-10.4 4.5-14 8.9-9.7 11.6-9.1 30.5 1.6 41.3 6.1 6.2 15.3 9.1 23.8 7.4 7.9-1.4 14.8-6.7 18.6-13.7 6.6-11.9 4.7-28.3-5.4-37.6-6.5-6-16-8.5-24.6-6.3z"/><path fill="#fcbd06" d="M299.5 54.7c15.1-2.9 31.6 1.3 42.9 11.9 18.4 16.5 20.4 47.4 4.7 66.4-9.5 12-24.9 18.6-40.1 17.9-14.5-.4-28.8-7.6-37.4-19.5-9.7-13.1-11.8-31.1-6.3-46.4 5.5-15.6 19.9-27.5 36.2-30.3m3 19c-5.4 1.4-10.4 4.5-14 8.8-9.6 11.4-9.2 30 1.1 40.9 6.1 6.5 15.6 9.7 24.4 7.9 7.8-1.5 14.8-6.7 18.6-13.7 6.5-12 4.6-28.4-5.6-37.7-6.5-6-16-8.4-24.5-6.2z"/><path fill="#3780ff" d="M389.4 60.5c11.5-7.2 26.8-9.2 39.2-3 3.9 1.7 7.1 4.6 10.2 7.5.1-2.7 0-5.5.1-8.3 6.7.1 13.4 0 20.2.1V145c-.1 13.3-3.5 27.4-13.1 37.1-10.5 10.7-26.6 14-41.1 11.8-15.5-2.3-29-13.6-35-27.9 6-2.9 12.3-5.2 18.5-7.9 3.5 8.2 10.6 15.2 19.5 16.8 8.9 1.6 19.2-.6 25-8 6.2-7.6 6.2-18 5.9-27.3-4.6 4.5-9.9 8.5-16.3 10-13.9 3.9-29.2-.9-39.9-10.3-10.8-9.4-17.2-23.9-16.6-38.3.3-16.3 9.5-32 23.4-40.5m20.7 12.8c-6.1 1-11.8 4.4-15.7 9.1-9.4 11.2-9.4 29.1.1 40.1 5.4 6.5 14.1 10.1 22.5 9.2 7.9-.8 15.2-5.8 19.1-12.7 6.6-11.7 5.5-27.6-3.4-37.8-5.5-6.3-14.3-9.4-22.6-7.9z"/><path fill="#fa3913" d="M521.5 65.6c12-11.2 30.5-15 45.9-9.1C582 62 591.3 75.9 596 90.2c-21.7 9-43.3 17.9-65 26.9 3 5.7 7.6 10.9 13.8 13 8.7 3.1 19.1 2 26.4-3.8 2.9-2.2 5.2-5.1 7.4-7.9 5.5 3.7 11 7.3 16.5 11-7.8 11.7-20.9 19.9-35 21.2-15.6 1.9-32.2-4.1-42.3-16.3-16.6-19.2-15-51.4 3.7-68.7m10.7 18.5c-3.4 4.9-4.8 10.9-4.7 16.8 14.5-6 29-12 43.5-18.1-2.4-5.6-8.2-9-14.1-9.9-9.5-1.7-19.4 3.4-24.7 11.2z"/></svg>
+                </div>
+            </div>
+            <div class="nav02">
+                <div class="txt01">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill=" #5f6368" d="M3 6a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm0 6a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm1 5a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2H4z"/></svg>
+                    For India
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Access</a></li>
+                    <li><a href="#">Skilling Programs</a></li>
+                    <li><a href="#">Innovation</a></li>
+                    <li><a href="#">Trust & Safety</a></li>
+                </ul>
+    
+                <div class="drop-down">
+                    English
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" x="0" y="0" version="1.1" viewBox="0 0 29 29" xml:space="preserve"><path fill="none"  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m20.5 11.5-6 6-6-6"/></svg>
+                </div>
+            </div>
+        </div>
+        
+        <!--starting main-sec-->
+        <div class="main-sec" style="background-image: linear-gradient(rgb(0, 0 ,0, 0.5) ,rgb(0 ,0 ,0 ,.5)) , url(https://lh3.googleusercontent.com/pVkWztoxLtveY7N4iERXp081ympjedtszUd8JyZ0r124mI5ePzZt2dvKNXG3qK15rWh5y6CHgqeYarNkBzGgvKEgwcxHcNez2AE_=w1024);">
+            <div class="head01">
+                India. Forward.
+            </div>
+            <div class="text">
+                Connecting a billion <br>people to the power of<br> the Internet
+            </div>
+            <div class="btn">Watch video</div>
+
+        </div>
+        <div class="discription">
+            <div class="head">
+                Our commitment
+            </div>
+            <div class="txt">
+                Google’s mission is to organise the world’s information and make it universally accessible and useful. This is more relevant than ever in today’s mobile-first world. In India, we want to bring the Internet to life for everyone. The more people have access to the tools, services, information and training online, the more they can pursue their ambitions and reach their potential.<br><br>
+                We want to help Indians connect to the Internet that serves their needs and helps them make a positive impact on their communities. We aim to achieve this with programs and products with Indian user at its core.
+            </div>
+        </div>
+
+        <div class="grid-sec">
+            <div class="head-grid">
+                Google Initiatives
+            </div>
+            <div class="grid-cards">
+                <div class="card">
+                    <div class="top-pic" style="background: url(./assets/unnamed\ \(1\).jpg) no-repeat ; background-size:cover;">
+
+                    </div>
+                    <div class="txt-card">
+                        <span>Bringing the Internet alive for every Indian</span> <br><br>
+                        "As the world heads towards a hyper-connected future, more than half of India’s 1.3 billion citizens still lack access to the Internet."
+                    </div>
+
+                    <div class="more">
+                        <div class="txt-more">
+                            READ MORE
+                        </div>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64"><path fill="none"  stroke-miterlimit="10" stroke-width="6" d="M62.56,32l-28-28,28,28-28,28"/><line x1="1.44" x2="62.56" y1="32" y2="32" fill="none"  stroke-miterlimit="10" stroke-width="6"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="top-pic" style="background: url(./assets/unnamed\ \(2\).jpg) no-repeat ; background-size:cover;">
+
+                    </div>
+                    <div class="txt-card">
+                        <span>Boosting digital skills to power the new economy</span> <br><br>
+                        In today’s global market, businesses have an increasing demand for digital expertise. For companies to succeed, they need employees with practical skills and technical knowledge geared to the evolving digital landscape.
+                    </div>
+                    <div class="more">
+                        <div class="txt-more">
+                            READ MORE
+                        </div>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64"><path fill="none"  stroke-miterlimit="10" stroke-width="6" d="M62.56,32l-28-28,28,28-28,28"/><line x1="1.44" x2="62.56" y1="32" y2="32" fill="none"  stroke-miterlimit="10" stroke-width="6"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="top-pic" style="background: url(./assets/unnamed\ \(3\).jpg) no-repeat ; background-size:cover;">
+
+                    </div>
+                    <div class="txt-card">
+                        <span>Innovating for India</span> <br><br>
+                        "As the number of Internet users in India continues to grow, we’re adapting existing Google products and developing new ones that cater to the nation’s unique digital needs."
+                    </div>
+                    <div class="more">
+                        <div class="txt-more">
+                            READ MORE
+                        </div>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64"><path fill="none"  stroke-miterlimit="10" stroke-width="6" d="M62.56,32l-28-28,28,28-28,28"/><line x1="1.44" x2="62.56" y1="32" y2="32" fill="none"  stroke-miterlimit="10" stroke-width="6"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="top-pic" style="background: url(./assets/unnamed\ \(4\).jpg) no-repeat ; background-size:cover;">
+
+                    </div>
+                    <div class="txt-card">
+                        <span>Trust & Safety</span> <br><br>
+                        "India is the second largest internet user base in the world, with over 400 million internet users today, and an expected 650 million within the next two years."
+                    </div>
+                    <div class="more">
+                        <div class="txt-more">
+                            READ MORE
+                        </div>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64"><path fill="none"  stroke-miterlimit="10" stroke-width="6" d="M62.56,32l-28-28,28,28-28,28"/><line x1="1.44" x2="62.56" y1="32" y2="32" fill="none"  stroke-miterlimit="10" stroke-width="6"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            
+        </div>   
+        
+        <div class="foot">
+            <div class="logo02">
+                <svg alt="Google" class="svg-icon" height="24" viewBox="0 0 80 27" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.4,21C4.7,21,0,16.2,0,10.5S4.7,0,10.4,0c3.1,0,5.3,1.3,7,2.9l-1.9,2c-1.2-1.2-2.8-2-5-2 c-4.1,0-7.3,3.4-7.3,7.6s3.2,7.6,7.3,7.6c2.7,0,4.2-1.1,5.1-2.1c0.8-0.8,1.3-2,1.5-3.8h-6.6V9.3h9.3c0.1,0.5,0.2,1.1,0.2,1.8 c0,2.2-0.5,5-2.4,6.9C15.7,20,13.4,21,10.4,21z" fill="#9e9e9e"></path>
+                    <path d="M34.2,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S34.2,10.2,34.2,14.1z M31.4,14.1 c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C29.6,18.2,31.4,16.5,31.4,14.1z" fill="#9e9e9e"></path>
+                    <path d="M48.4,14.1c0,3.9-2.9,6.7-6.6,6.7s-6.6-2.8-6.6-6.7s2.9-6.7,6.6-6.7S48.4,10.2,48.4,14.1z M45.5,14.1 c0-2.5-1.7-4.1-3.7-4.1c-1.9,0-3.7,1.6-3.7,4.1c0,2.4,1.7,4.1,3.7,4.1C43.8,18.2,45.5,16.5,45.5,14.1z" fill="#9e9e9e"></path>
+                    <path d="M61.7,7.8V20c0,5-2.7,7-6.1,7c-3.2,0-5-2.2-5.8-4l2.5-1.1c0.4,1.1,1.5,2.4,3.3,2.4c2.1,0,3.4-1.4,3.4-3.9v-1 h-0.1c-0.6,0.8-1.8,1.6-3.4,1.6c-3.3,0-6.2-2.9-6.2-6.8s2.9-6.7,6.2-6.7c1.6,0,2.7,0.7,3.4,1.6h0.1V7.8H61.7z M59.2,14.1 c0-2.4-1.5-4.1-3.5-4.1c-1.9,0-3.5,1.7-3.5,4.1s1.5,4.1,3.5,4.1C57.7,18.2,59.2,16.5,59.2,14.1z" fill="#9e9e9e"></path>
+                    <path d="M66.4,1.1v19.8h-2.8V1.1H66.4z" fill="#9e9e9e"></path>
+                    <path d="M77.7,16.3l2.2,1.6c-0.7,1.1-2.5,3-5.5,3c-3.7,0-6.5-2.9-6.5-6.7c0-4,2.8-6.7,6.2-6.7c3.4,0,5,2.8,5.6,4.3 l0.3,0.7l-8.8,3.7c0.7,1.4,1.7,2,3.2,2S76.9,17.5,77.7,16.3z M70.8,14l5.8-2.5c-0.4-0.8-1.3-1.5-2.4-1.5C72.7,10,70.7,11.3,70.8,14 z" fill="#9e9e9e"></path>
+                  </svg>
+            </div>
+            <ul class="foot-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
